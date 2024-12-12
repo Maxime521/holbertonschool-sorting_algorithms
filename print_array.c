@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #include "sort.h"
-=======
-#include <stdlib.h>
-#include <stdio.h>
->>>>>>> afbdb50 (task 02)
 
 /**
  * print_array - Prints an array of integers
