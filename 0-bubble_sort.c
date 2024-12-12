@@ -8,6 +8,13 @@
  * Return: 0
  */
 
+void swap(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
 void bubble_sort(int *array, size_t size)
 {
 	unsigned int i, j;
