@@ -21,10 +21,10 @@ void swap(int *a, int *b)
  *
  * Return: Index of the pivot after partitioning
  */
-size_t lomuto_partition(int *array, size_t low, size_t high, size_t size)
+size_t lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size)
 {
 	int pivot = array[high];
-	size_t i = low - 1, j;
+	ssize_t i = low - 1, j;
 
 	for (j = low; j < high; j++)
 	{
@@ -55,7 +55,7 @@ size_t lomuto_partition(int *array, size_t low, size_t high, size_t size)
  * @high: Ending index of the array/subarray
  * @size: Total size of the array
  */
-void quick_sort_recursive(int *array, size_t low, size_t high, size_t size)
+void quick_sort_recursive(int *array, ssize_t low, ssize_t high, size_t size)
 {
 	size_t pivot_index;
 
