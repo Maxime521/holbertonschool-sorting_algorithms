@@ -4,6 +4,7 @@
  * swap - Swaps two integers
  * @a: First integer
  * @b: Second integer
+ * Return: void
  */
 void swap(int *a, int *b)
 {
